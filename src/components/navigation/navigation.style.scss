@@ -1,0 +1,25 @@
+.navigation {
+  &__list {
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 2.4rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: bold;
+  }
+
+  &__link--active {
+    color: var(--color-purple);
+  }
+}
